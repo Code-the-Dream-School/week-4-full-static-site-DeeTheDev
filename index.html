@@ -25,7 +25,7 @@
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container d-flex flex-lg-column">
-                <a class="navbar-brand mr-auto" href="#">Brand</a>
+                <a class="navbar-brand mr-auto" href="#">Data Structure</a>
                 <button
                     class="navbar-toggler"
                     type="button"
@@ -41,15 +41,18 @@
                     class="collapse navbar-collapse mr-auto"
                     id="navbarNavDropdown"
                 >
-                    <ul class="nav nav-pills">
+                    <ul class="nav nav-pills header-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Active</a>
+                            <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
+                            <a class="nav-link" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
                         </li>
                     </ul>
                 </div>
@@ -58,12 +61,12 @@
 
         <div class="container my-5">
             <div class="row">
-                <div class="col-md order-md-1">
+                <div class="col-lg order-lg-1">
                     <h4>What is DS?</h4>
                     <img
                         src="https://placeimg.com/600/400/tech"
-                        alt="not found"
-                        class="img-fluid rounded"
+                        alt="Tech Image"
+                        class="img-fluid rounded w-100"
                         width="auto"
                         height="auto"
                     />
@@ -86,29 +89,45 @@
                         addresses of data items within the structure itself.
                     </p>
                 </div>
-                <div class="col-md order-md-0">
+                <div class="col-lg order-lg-0">
                     <h4>Some Sorting Algorithm</h4>
                     <ul class="list-group">
                         <li class="list-group-item">
                             <strong>Bubble Sort:</strong> repeatedly swapping
                             the adjacent elements if they are in wrong order
                         </li>
-                        <li class="list-group-item">Dapibus ac facilisis in</li>
-                        <li class="list-group-item">Morbi leo risus</li>
-                        <li class="list-group-item">Porta ac consectetur ac</li>
-                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item">
+                            <strong>Selection Sort:</strong> sort algorithm
+                            sorts an array by repeatedly finding the minimum
+                            element
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Insertion Sort:</strong> Insertion sort is a
+                            simple sorting algorithm that works the way we sort
+                            playing cards in our hands
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Quick Sort:</strong> Divide and Conquer
+                            algorithm. It picks an element as pivot
+                        </li>
+                        <li class="list-group-item">
+                            <strong>Merge Sort:</strong> It divides input array
+                            in two halves, calls itself for the two halves and
+                            then merges the two sorted halves.
+                        </li>
                     </ul>
                 </div>
-                <div class="col-md order-md-2 py-4">
+                <div class="col-lg order-lg-2 custom-spacing">
+                    <!-- Verticle spacing with smaller screens   -->
                     <h4>Searching Algorithms</h4>
                     <ul class="list-group custom-list">
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Binary Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -117,12 +136,12 @@
                             </div>
                         </li>
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Jump Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -131,12 +150,12 @@
                             </div>
                         </li>
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Linear Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -145,12 +164,12 @@
                             </div>
                         </li>
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Interpolation Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -159,12 +178,12 @@
                             </div>
                         </li>
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Exponential Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -173,12 +192,12 @@
                             </div>
                         </li>
                         <li
-                            class="list-group-item d-flex flex-column justify-content-between align-items-left"
+                            class="list-group-item d-flex flex-column justify-content-between"
                         >
                             <h5>Fibonacci Search</h5>
 
                             <div
-                                class="d-flex justify-content-between align-items-center"
+                                class="d-flex justify-content-between align-items-baseline"
                             >
                                 <p>time complexity</p>
                                 <span class="badge badge-primary badge-pill">
@@ -191,9 +210,12 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-dark">
-            <div class="row justify-content-md-center p-4 media-section">
+        <div class="container bg-dark rounded mb-5">
+            <div
+                class="row flex-column justify-content-md-center p-4 media-section"
+            >
                 <div class="col">
+                    <h3 class="text-light my-0">Video</h3><!-- Fixed the margin to match second h3 "gallery"-->
                     <video
                         src="media/bubble-sort.mov"
                         class="rounded bg-dark"
@@ -201,7 +223,8 @@
                         controls
                     ></video>
                 </div>
-                <div class="col">
+                <div class="col mb-3">
+                    <h3 class="text-light py-0 my-3"">Gallery</h3>
                     <div
                         id="carouselExampleIndicators"
                         class="carousel slide"
@@ -265,7 +288,30 @@
             </div>
         </div>
         <footer>
-            <div class="container"></div>
+            <div class="container">
+                <div class="d-flex flex-column py-5">
+                    <ul class="nav justify-content-center my-2 socials">
+                        <li class="nav-item twitter-color rounded">
+                            <a class="nav-link twitter-icon" href="#"
+                                >Twitter</a
+                            >
+                        </li>
+                        <li class="nav-item facebook-color rounded">
+                            <a class="nav-link facebook-icon" href="#"
+                                >Facebook</a
+                            >
+                        </li>
+                        <li class="nav-item instagram-color rounded">
+                            <a class="nav-link instagram-icon" href="#"
+                                >Instagram</a
+                            >
+                        </li>
+                    </ul>
+                    <p class="text-center">
+                        © Copyright CDT DeeTheDev Week 4 Assignment
+                    </p>
+                </div>
+            </div>
         </footer>
 
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->

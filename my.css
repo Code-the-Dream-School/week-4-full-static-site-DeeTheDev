@@ -49,7 +49,7 @@ ul.nav {
     margin-bottom: -25px;
     margin-top: 25px;
 }
-.nav-item .nav-link {
+.header-nav .nav-item .nav-link {
     background-color: white;
     color: #007bff !important;
     border: 3px solid #007bff !important;
@@ -69,10 +69,38 @@ video {
 }
 
 @media (max-width: 992px) {
+    .custom-spacing {
+        margin-top: 25px;
+    }
     .media-section {
         flex-direction: column;
     }
     .media-section .col:last-child {
         padding-top: 20px;
     }
+}
+
+/* ------------------------- FOOTER AREA ----------------------------- */
+.twitter-icon,
+.facebook-icon,
+.instagram-icon {
+    display: inline-flex;
+}
+.twitter-icon::before,
+.facebook-icon::before,
+.instagram-icon::before {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+    display: inline-block;
+}
+.twitter-icon::before {
+    content: url(./media/twitter.svg);
+    fill: blue;
+}
+.facebook-icon::before {
+    content: url(./media/facebook.svg);
+}
+.instagram-icon::before {
+    content: url(./media/instagram.svg);
 }
